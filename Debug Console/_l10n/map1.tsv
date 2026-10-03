@@ -1,0 +1,234 @@
+用法：	Usage: 
+。	.
+ 件	 items
+ 天	 days
+　	 
+：	: 
+「	"
+」。	".
+写入失败。	Write failed.
+　(	 (
+武器配件	Weapon Parts
+混合	Hybrid
+简单	Simple
+关	Off
+开	On
+开发者	Developer
+找不到类型「	No type named "
+断电	Unpowered
+物品	Item
+调试控制台	Debug Console
+还没进存档。	Not in a save yet.
+通电	Powered
+ 失败：	 failed: 
+item search 关键词	item search <keyword>
+　还欠 	 owed 
+」。用法：	". Usage: 
+不认识的写法「	Unrecognized token "
+事件	Event
+关闭	Close
+存档	Save
+无	none
+有	yes
+机器	Machines
+杂项	Misc
+空	empty
+）：	): 
+ 上没有成员「	" has no member "
+ 个类型	 types
+ 件。	 items.
+ 天）。	 days).
+ 天，状态：	 days, state: 
+ 是空值。	 is null.
+[API] 枚举库存失败：	[API] Enumerating inventory failed: 
+[API] 销毁旧货失败：	[API] Destroying the old stock failed: 
+call <类型.方法> [参数…]	call <Type.Method> [args...]
+event [list | fire 编号 | refresh]	event [list | fire <n> | refresh]
+event fire 编号	event fire <n>
+rent [set 数额 | days 天数]	rent [set <amount> | days <n>]
+set <类型.成员> <值>	set <Type.Member> <value>
+skip [天数 | stop]	skip [days | stop]
+spawn <物品|中文名> [数量] [柜台|仓库]	spawn <id|name> [count] [counter|store]
+　v	 v
+　物品目录 	 · Catalog 
+　用 	 · Use 
+」。用 	". Try 
+」不是个数字。	" is not a number.
+」的物品。	".
+上一次连跳还没走完（还剩 	A skip is still running (
+上层区	Upper District
+下层区	Lower District
+亮色	Light
+今天没有事件	no events today
+仓库	Backroom
+先在框里填内容。	Type something first.
+全部	All
+全部功能	All Features
+关于	About
+写入金钱失败。	Failed to write money.
+分类	Category
+匹配 	Matched 
+医疗	Medical
+否	No
+容器设施	Containers
+工具	Tools
+已引入	Introduced
+开发	Dev
+所有分类的功能都摊在这儿	every category's features on one page
+执行失败：	Execution failed: 
+找不到物品「	Item not found: "
+是	Yes
+未引入	Not introduced
+材料	Materials
+模块	Modules
+模式	Mode
+没有匹配「	No match for "
+治安部	Security Dept
+深色	Dark
+清屏	Clear
+状态	Status
+第 	Day 
+触发	Fire
+设置	Set
+路径要写成「类型.成员」，例如 PlayerStore.instance.playerCash	Path must be Type.Member, e.g. PlayerStore.instance.playerCash
+金钱	Money
+金钱 	Money 
+革命军	Revolutionaries
+黑市	Black Market
+）。	).
+，	, 
+ 三种模式。	 modes.
+ 上找不到名叫「	" has no member named "
+ 个	
+ 个。	.
+ 个卡片	 cards
+ 个参数：	 args:
+ 个类型。	 types.
+ 个）	 found)
+ 之间。	.
+ 件 → 	 items → 
+ 件失败：	 items failed: 
+ 件没能销毁。	 items could not be destroyed.
+ 件货	 items
+ 件）	 items)
+ 件，把 ID 写全一点：	 matches. Use a more specific ID:
+ 件，第 	 items. #
+ 元	
+ 关闭　Esc 收起输入	 to close · Esc to blur input
+ 关闭　滚轮翻方块	 to close · wheel scrolls the tiles
+ 刷货。	 to spawn items.
+ 加钱，	 to add money, 
+ 只有 getter，是只读的。	 has only a getter; it is read-only.
+ 多选=	 multi=
+ 多选=错	 multi=err
+ 天 · 	 · 
+ 天　起始 	 days · initial 
+ 天，状态 	 days, state 
+ 左键=	 LMB=
+ 左键=错	 LMB=err
+ 已加载，共 	 loaded, 
+ 已设为 	 set to 
+ 已调用（无返回值）。	 called (no return value).
+ 打开。	 to open.
+ 执行失败：	 failed: 
+ 找。	 to search.
+ 找找。	 to search.
+ 挂载失败：	 failed to load: 
+ 搜搜看。	 to look it up.
+ 数额	 <amount>
+ 是实例成员，但 	 is an instance member, but 
+ 是实例方法，但 	 is an instance method, but 
+ 是空值，没法调它的方法。	 is null; cannot call a method on it.
+ 有类型但没找到单例，换个参数写法。	 has a type but no singleton instance; try another form.
+ 条命令	 commands
+ 条命令。默认按 	 commands. Press 
+ 条，再写细一点。	 more; narrow it down.
+ 的「	's "
+ 的值是空的，写不进去。	 is null; cannot write to it.
+ 的方法。	 method.
+ 看全部命令。	 to list every command.
+ 看全部命令，Tab 补全，↑↓ 翻历史。	 lists every command, Tab completes, ↑↓ for history.
+ 看状态，	 for status, 
+ 看看。	 to inspect.
+ 种入口报错：	 entry points raised errors: 
+ 种入口没推动天数（还是第 	 entry points could not advance the day (still day 
+ 翻页	 to turn the page
+ 返回 	 returns 
+ 这种组合。	 style combo.
+ 里看。	 to see it.
+ 页	
+ 项] 	] 
+(空字符串)	(empty string)
+)　	) 
+)　放进了	) → placed in 
+10000 或 -5000	10000 or -5000
+<取不到>	<unavailable>
+<显示失败：	<display failed: 
+Harmony 补丁挂载失败：	Harmony patch failed: 
+Tab 补全命令，↑ ↓ 翻历史，点左边快捷栏直接执行。	Tab completes commands, ↑↓ walks history, click a sidebar entry to run it.
+[API] CanEndDay() 说不行，仍然强推 EndDay()。	[API] CanEndDay() said no; forcing EndDay() anyway.
+[API] 关打烊面板失败：	[API] Closing the closing-time panel failed: 
+[API] 关清晨面板失败：	[API] Closing the morning panel failed: 
+[API] 写夜间日志失败：	[API] Writing the night log failed: 
+[API] 切换界面导航失败：	[API] Toggling UI navigation failed: 
+[API] 刷新柜台失败：	[API] Refreshing the counter failed: 
+[API] 取事件管理器失败：	[API] Getting the event manager failed: 
+[API] 取库存失败：	[API] Getting the inventory failed: 
+[API] 取物品图标失败（	[API] Loading the item icon failed (
+[API] 存档失败：	[API] Save failed: 
+[API] 开关游戏输入失败：	[API] Toggling game input failed: 
+[API] 快捷删除失败：	[API] Quick delete failed: 
+[API] 找空位失败：	[API] Finding a free slot failed: 
+[API] 摘物品失败：	[API] Taking the item out failed: 
+[API] 改声望失败（	[API] Changing reputation failed (
+[API] 改开关失败：	[API] Setting the flag failed: 
+[API] 改租金失败：	[API] Setting rent failed: 
+[API] 改缴租天数失败：	[API] Setting the rent countdown failed: 
+[API] 改金钱失败：	[API] Setting money failed: 
+[API] 新建顾客实例失败：	[API] Creating a customer instance failed: 
+[API] 枚举物品目录失败：	[API] Enumerating the item catalog failed: 
+[API] 枚举背包失败：	[API] Enumerating the backpack failed: 
+[API] 第 	[API] day 
+[API] 触发对话收尾失败：	[API] Finishing the dialogue failed: 
+[API] 读不到天数，跳天改用盲推模式。	[API] Day number unreadable; day-skipping falls back to blind mode.
+[API] 读事件名失败：	[API] Reading the event name failed: 
+[API] 读声望失败（	[API] Reading reputation failed (
+[API] 读天数失败：	[API] Reading the day number failed: 
+[API] 读威胁事件失败：	[API] Reading threat events failed: 
+[API] 读常规事件失败：	[API] Reading regular events failed: 
+[API] 读开关失败：	[API] Reading the flag failed: 
+[API] 读当前事件失败：	[API] Reading the current event failed: 
+[API] 读氛围事件失败：	[API] Reading ambience events failed: 
+[API] 读物品目录失败：	[API] Reading the item catalog failed: 
+[API] 读租金失败：	[API] Reading rent failed: 
+[API] 读金钱失败：	[API] Reading money failed: 
+[API] 跳天第 	[API] skipping day 
+[API] 重建顾客模板失败：	[API] Rebuilding the customer template failed: 
+[API] 重掷事件失败：	[API] Rerolling events failed: 
+[API] 鼠标屏蔽切换失败：	[API] Toggling mouse blocking failed: 
+[事件] 事件清单已加载，	[Event] Event list loaded, 
+[反射] 类型索引已建立，	[Reflect] Type index built, 
+[命令] 	[Cmd] 
+[字体] 初始化失败：	[Font] Init failed: 
+[字体] 找场景字体失败：	[Font] Finding a scene font failed: 
+[字体] 控制台字体 = 	[Font] Console font = 
+[字体] 枚举字体失败：	[Font] Enumerating fonts failed: 
+[物品] 物品控制台目录已加载，	[Item] Item console catalog loaded, 
+[物品] 目录已加载，	[Item] Catalog loaded, 
+[物品] 读目录 	[Item] Reading catalog 
+[界面] 下拉框同步选择失败：	[UI] Syncing the dropdown failed: 
+[界面] 下拉框选择失败：	[UI] Dropdown selection failed: 
+[界面] 关闭导航失败：	[UI] Disabling navigation failed: 
+[界面] 关闭按钮过渡失败：	[UI] Disabling the button transition failed: 
+[界面] 刷新失败：	[UI] Refresh failed: 
+[界面] 取下拉选项失败：	[UI] Reading dropdown options failed: 
+[界面] 建面板失败：	[UI] Building the panel failed: 
+[界面] 悬停检测失败：	[UI] Hover detection failed: 
+[界面] 挂 	[UI] Attaching 
+[界面] 控制台面板已就绪（	[UI] Console panel ready (
+[界面] 没挂上 GraphicRaycaster，按钮会点不动。	[UI] GraphicRaycaster missing; buttons will not respond.
+[界面] 生成圆角图失败，改用直角：	[UI] Rounded sprite failed, using square corners: 
+[界面] 绑定按钮失败：	[UI] Binding the button failed: 
+[界面] 设置画布失败：	[UI] Canvas setup failed: 
+[界面] 配置输入框失败：	[UI] Configuring the input field failed: 
+[调试] 	[Debug]

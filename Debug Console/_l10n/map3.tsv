@@ -1,0 +1,154 @@
+全部物品	All Items
+共 	Total 
+关掉控制台，回到游戏。	Close the console and go back to the game.
+关闭控制台失败：	Closing the console failed: 
+关闭硬核	Hardcore off
+养殖	Livestock
+写一个字段/属性。值支持数字、true/false、字符串、枚举名、null。	Write a field/property. Values may be numbers, true/false, strings, enum names or null.
+写一条自己的记录进去	Write a note of your own into it
+写入	Write
+写入失败：	Write failed: 
+写存档失败，看 MelonLoader 日志。	Save failed; check the MelonLoader log.
+切。	 — that's where you switch.
+切界面模式：simple 只有操作卡片，hybrid 卡片 + 命令行，dev 纯命令行带反射调试。	Switch UI mode: simple is tiles only, hybrid adds the command line, dev is command-line only with reflection tools.
+切界面：items 打开物品控制台（一柜的货点着刷），back 回到命令界面。	Switch screens: items opens the item console (click stock to spawn it), back returns to the command screen.
+列出全部命令；给个命令名看它的详细用法。	Lists every command; give a command name for its full usage.
+列出某个类型的所有字段/属性；静态的会连当前值一起打出来。	Lists every field/property of a type; static ones print their current value too.
+列出某个类型的方法（只列名字和参数，不带返回值）。	Lists a type's methods (names and parameters only, no return values).
+删除失败：	Delete failed: 
+刷新	Refresh
+刷新客户物品	Reroll Customer Stock
+刷新客户物品失败：	Rerolling customer stock failed: 
+刷物品	Spawn Items
+区	Faction
+区写中文名（下层区 / 上层区 / 治安部 / 黑市 / 革命军）或者 ID（ll / ul / sec / bm / rev）都认，	Factions take IDs (ll / ul / sec / bm / rev) or Chinese names (下层区 / 上层区 / 治安部 / 黑市 / 革命军), 
+反射调试	Reflection
+反抗	rebel
+反抗军	revolutionaries
+取不到当前顾客的资料。	Could not read the current customer's data.
+只在运行时生效，存档里记的是开局选的	Runtime only; the save keeps what you picked at the start
+只有 setter，没有 getter	has only a setter, no getter
+只看收藏	Favorites only
+可能显示为方块	may render as boxes
+右键=	RMB=
+右键=错	RMB=err
+右键悬停	RMB hover
+各区声望	Faction Reputation
+合上	on
+合闸	Switch On
+命令	Command
+命令一览	Command List
+命令执行中抛异常：	Command threw an exception: 
+回到命令界面。	Back to the command screen.
+在 	On 
+在深色 / 亮色之间切换（界面会重建一次）。顶栏那个「亮色 / 深色」按钮走的就是这条。	Switches between dark / light (the UI rebuilds once). The top-bar "Light / Dark" button runs this.
+在游戏程序集里按名字找类型。写空串会列出全部（很慢）。	Finds types by name in the game assemblies. An empty string lists everything (slow).
+填几天就跳几天，中途还能停	Skip as many days as you type; you can stop midway
+填多少就是多少，填 0 免租	Whatever you type is what you get; 0 means rent-free
+声望	Reputation
+声望 	Reputation 
+声望　	Reputation 
+声望、属性、进度开关	reputation, attributes, progression flags
+多选悬停	multi-select hover
+夜间报告	Night Report
+天数至少是 1。	Days must be at least 1.
+威胁	Threat
+存档 · 库存未就绪	Save · inventory not ready
+存档 · 店铺就绪	Save · store ready
+存档、跳天、电闸、硬核、夜晚报告	save, day skipping, power, hardcore, night report
+存档退出了，连跳停下。	The save was closed; day skipping stopped.
+小键盘	Numpad
+左边一栏	the left column
+左键悬停	LMB hover
+已写入夜间报告。	Written to the night report.
+已写入存档。	Saved.
+已删除 	Deleted 
+已取消收藏 	Removed from favorites: 
+已把事件推上场：	Event pushed live: 
+已收藏 	Added to favorites: 
+已清空 	Cleared 
+已生成 	Spawned 
+已经让游戏重新掷了一次今天的事件。	Today's events were rerolled.
+已跳过 	Skipped 
+帮助	help
+帮助、清屏、主题、关闭	help, clear, theme, close
+常规	Regular
+库存　	Inventory 
+库存拒绝了移除请求。	The inventory refused the removal.
+店里已有	In store
+店里本来就是空的。	The store was already empty.
+店铺库存还没就绪，稍等一下再试。	Store inventory is not ready yet; try again in a moment.
+店铺电闸	Store Power
+店铺还没就绪。	The store is not ready yet.
+店铺还没就绪，等柜台加载出来再刷。	The store is not ready; wait for the counter to load before spawning.
+废品	Scrap
+开启硬核	Hardcore on
+开始快进 	Skipping 
+开始跳	Start
+开物品控制台：一柜的货，点一件就刷	Open the item console: a shopful of stock, click one to spawn it
+当前挂着什么事件，或者让游戏重掷一次	What events are attached, or reroll them once
+当前挂着：	Attached: 
+当前模式：	Current mode: 
+当前金钱 	Money 
+往夜间报告里写一条自己的记录（看看报告页排版时很有用）。	Write a note of your own into the night report (handy for checking that page's layout).
+快进天数：不带参数跳 1 天；写数字跳这么多天（最多 100）；stop 停下正在走的连跳。	Fast-forward days: no argument skips 1; a number skips that many (max 100); stop halts a run in progress.
+或者在物品控制台里点货刷（	 or spawn from the item console (
+所有命令和用法	Every command and its usage
+打印到输出区	Print to output
+打印命令表	Print command list
+打开 ▶	Open ▶
+打开/关闭调试控制台的热键。+ 连接，最后一个是主键，前面的是要一起按住的修饰键	Hotkey to open/close the console. + joins keys: the last one is the main key, the others are modifiers held together
+打开控制台失败：	Opening the console failed: 
+打开物品控制台	Open Item Console
+打开物品控制台：点一件货 → 填数量 → 选位置 → 生成。	Item console: click stock → set count → pick a spot → spawn.
+执行	Run
+找不到叫「	No item named "
+把参数补上再回车：	Fill in the argument, then press Enter: 
+把当前进度立刻写进存档文件	Write the current progress to the save file right now
+拉闸	Switch Off
+拥有	owned
+按 	Press 
+按住左边标题栏拖动	Drag the left side of the title bar
+按模板重建顾客失败（	Rebuilding the customer from its template failed (
+控制台更新失败：	Console update failed: 
+控制台面板建不起来，看日志。	The console panel could not be built; check the log.
+搜物品名或 ID	Search name or ID
+改声望	Change Rep
+改声望失败。	Changing reputation failed.
+改法：	How to: 
+改造	Augmentation
+改造系统	Augmentation System
+改造系统已引入标记 → 	Augmentation flag → 
+改造系统已引入：	Augmentation introduced: 
+改钱	Set Money
+数量	Count
+文书	Documents
+新顾客实例建不出来，旧货已经还原。	Could not create a new customer instance; the old stock was restored.
+新顾客的到场流程出错，已经还原：	The new customer's arrival flow errored; restored: 
+日志	Log
+旧货摘不下来，已经还原，没动你的店。	Could not take the old stock out; everything was restored and your store is untouched.
+最后一项写「仓库」就放后仓，不写放柜台。	Put "store" last to drop items in the backroom; otherwise they land on the counter.
+有 	There are 
+未分类	Uncategorized
+未找到	not found
+枚举字段失败。	Enumerating fields failed.
+枚举方法失败。	Enumerating methods failed.
+柜台	Counter
+柜台库存对象为空。	Counter inventory is null.
+标记已引入	Mark Introduced
+标记未引入	Mark Not Introduced
+桌子（柜台）	Table (Counter)
+模式）。	 mode).
+正在处理抓捕，等这段演完。	An arrest is playing out; wait for it to finish.
+正在枪战，等打完了再刷。	A gunfight is going on; wait for it to end.
+正在讨价还价，先把这笔谈完。	A haggle is in progress; finish it first.
+正常	OK
+正数加钱，负数扣钱，填多少改多少	Positive adds, negative deducts; whatever you type is applied
+氛围	Ambience
+没扫到任何游戏程序集。	No game assemblies were found.
+没有	no
+没有匹配的字段。	No matching fields.
+没有匹配的方法。	No matching methods.
+没有叫「	No command named "
+没有可补全的项。	Nothing to complete.
+没进存档	No save

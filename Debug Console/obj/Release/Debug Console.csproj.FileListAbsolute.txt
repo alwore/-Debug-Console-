@@ -1,0 +1,8 @@
+E:\a_开发\Debug Console\Debug Console\bin\Release\DebugConsole.deps.json
+E:\a_开发\Debug Console\Debug Console\bin\Release\DebugConsole.dll
+E:\a_开发\Debug Console\Debug Console\bin\Release\DebugConsole.pdb
+E:\a_开发\Debug Console\Debug Console\obj\Release\Debug Console.csproj.AssemblyReference.cache
+E:\a_开发\Debug Console\Debug Console\obj\Release\Debug Console.GeneratedMSBuildEditorConfig.editorconfig
+E:\a_开发\Debug Console\Debug Console\obj\Release\Debug Console.csproj.CoreCompileInputs.cache
+E:\a_开发\Debug Console\Debug Console\obj\Release\DebugConsole.dll
+E:\a_开发\Debug Console\Debug Console\obj\Release\DebugConsole.pdb

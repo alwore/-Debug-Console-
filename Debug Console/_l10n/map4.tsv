@@ -1,0 +1,312 @@
+# 整句/长片段对照（map4）：把覆盖率检查里剩下的条目补上。
+# 格式：原文<TAB>英文。行内空格、全角标点都要和源码里的字面量一字不差。
+区写中文名（下层区 / 上层区 / 治安部 / 黑市 / 革命军）或者 ID（ll / ul / sec / bm / rev）都认，	IDs (ll / ul / sec / bm / rev) or Chinese names (下层区 / 上层区 / 治安部 / 黑市 / 革命军) both work, 	（括号里的中文名是照抄的 token）
+清掉这一屏日志	Clear this screen
+清空和刷物品都搬到「物品控制台」面板里了（顶栏按钮或 ui items）。	Clearing and spawning moved into the Items Console panel (top-bar button or ui items).
+清空所有物品	Clear All Items
+清空物品：	Clear items: 
+清空输出区。	Clear the output.
+游戏里没有叫「	No item in the game named "
+点左边一件货，填好数量、选好位置，再点生成	Click an item on the left, set the count and pick a spot, then hit Spawn
+热键「	Hotkey "
+热键只有一个键（	Hotkey is a single key (
+热键里认不出「	Cannot read "
+物品 ID 不能为空。	Item ID cannot be empty.
+物品为空。	Item is empty.
+物品控制台	Items Console
+物品控制台里收藏的物品 ID，用 | 分隔	Item IDs favorited in the Items Console, separated by |
+物品查询。list 翻全部物品，search 按中文名/ID 搜，count / own 查一件货。	Item lookup. list dumps everything, search matches name or ID, count / own checks one item.
+物品目录 	Item catalog: 
+物品目录是空的 —— 目录在进档之后才会注册，先开一局。	Item catalog is empty — it only registers after you load a save. Start a run first.
+物品目录还没就绪，先进一次存档。	Item catalog is not ready yet, load a save first.
+状态总览	Status overview
+现在没在连跳。	Not skipping right now.
+现在没有顾客在店里。	No customer in the store right now.
+生成	Spawn
+生成 	Spawned 
+生成 / 查找 / 清理物品	Spawn / Find / Clear items
+生成物品放进店里。ID 和中文名都认，中文名匹配到多个会列出来让你挑；	Drop items into the store. IDs and Chinese names both work; an ambiguous name lists the matches.
+生成物品用 	Spawn items with 
+生成的位置	Spawn location
+电闸　	Power　
+电闸：	Power: 
+界面已切到 	Switched to 
+界面模式	UI mode
+界面模式：simple / hybrid / developer	UI mode: simple / hybrid / developer
+界面用亮色风格（false = 深色）	Use the light theme (false = dark)
+直接读写游戏里的字段和方法	Read and write game fields and methods directly
+看 / 改「改造系统是否已引入」的标记。用来跳过前置剧情直接看后面的内容。	View / set the "renovation system unlocked" flag — skip the intro and peek at later content.
+看 / 改店铺电闸。停电的状态下开门做生意会很难受，调试时常用。	View / set store power. Running the shop in the dark is rough, so this gets used a lot.
+看 / 改硬核模式开关。改动只在运行时生效，存档里记的是你开局选的模式。	View / set hardcore mode. Changes are runtime only; the save keeps whatever you picked at the start.
+看事件列表	List events
+看说明	Read the docs
+硬核	Hardcore
+硬核模式	Hardcore mode
+硬核模式：	Hardcore: 
+种植水培	Hydroponics
+租金	Rent
+租金 	Rent 
+租金　	Rent　
+租金已改成 	Rent set to 
+租金设置	Rent settings
+空闲	Idle
+立刻把当前进度写进存档文件。	Write the current progress to the save file right now.
+立即存档	Save now
+等一整天过去太慢的时候用	For when a full day takes too long
+筛选	Filter
+简单只看卡片，混合两者都有	Simple shows cards only, hybrid shows both
+类型 	Type 
+系统	System
+给店长自己用的后台：刷钱、刷货、改数值、直接读写游戏字段。	The shopkeeper's back office: money, stock, stats, raw game fields.
+编号要落在 1 到 	Number must be between 1 and 
+缴租倒计时	Rent due in
+缴租倒计时已改成 	Rent countdown set to 
+背包	Bag
+补丁 	Patch 
+要先给一个类型名，用 	Give a type name first, use 
+要写的话…	To write…
+触发失败：	Trigger failed: 
+触发指定事件	Fire a specific event
+认不出「	Cannot read "
+读 	Read 
+读一个字段/属性的值。例：get PlayerStore.instance.playerCash	Read a field or property. e.g. get PlayerStore.instance.playerCash
+读不到事件列表 —— 事件管理器是进档之后才起来的。	Cannot read the event list — the event manager starts after you load a save.
+读不到事件列表 —— 事件系统是进档之后才起来的。	Cannot read the event list — the event system starts after you load a save.
+读不到当前是第几天，改成「推一把就算跳过」的方式，准头差一点。	Cannot read the day counter; falling back to "one nudge per day", a bit less precise.
+读不到当前金钱。	Cannot read the current money.
+读不到电闸状态。	Cannot read the power state.
+读不到硬核开关。	Cannot read the hardcore flag.
+读不到租金信息。	Cannot read rent info.
+读不到这个标记。	Cannot read this flag.
+调一个方法。例：call PlayerStore.instance.RefreshCounterItem	Call a method. e.g. call PlayerStore.instance.RefreshCounterItem
+调用失败：	Call failed: 
+路径在「	Path at "
+路径要写成「类型.方法」，例如 PlayerStore.instance.RefreshCounterItem	Path looks like "Type.Method", e.g. PlayerStore.instance.RefreshCounterItem
+跳不动了（	Stuck (
+跳天	Skip days
+跳过 1 天	Skip 1 day
+跳过一天	Skip a day
+跳过前置剧情直接看后面的内容	Skip the intro and look at later content
+跳过天数	Skip N days
+输入命令，回车执行…　（Tab 补全 / ↑↓ 历史）	Type a command, Enter to run… (Tab completes / ↑↓ history)
+输出	Output
+输出区	output area
+输出调试日志	Log debug output
+返回	Back
+还欠几天到期，填多少就是多少	Days until rent is due
+还没进存档。先开一局或读一个档，这条命令才有东西可改。	Not in a save yet. Start a run or load one first.
+还没进存档，先生成一个档再刷。	Not in a save yet — start a run before spawning.
+还没进存档，没法跳。	Not in a save yet, nothing to skip.
+还没选物品	No item selected
+这个下拉框现在还没得选。	Nothing to pick from this dropdown yet.
+这个事件造不出实例。	Cannot create an instance of this event.
+这个分类只有命令，没有卡片 —— 去左边点一条，或者敲命令行。	This category has commands but no cards — pick one on the left, or type it.
+这个控制台是什么、怎么用	What this console is and how to use it
+这个控制台是什么、怎么用。	What this console is and how to use it.
+这位顾客没有 ID，没法按模板重掷。	This customer has no ID, cannot reroll from a template.
+这位顾客的生意已经做完了，刷不了。	This customer is already done, cannot reroll.
+连跳中，还剩 	Skipping, 
+连跳停下了。	Skip stopped.
+连跳出错：	Skip error: 
+酿酒	Brewing
+重掷今天的事件	Reroll today's event
+重掷出来的货是空的，已经还原成原来那批。	The rerolled stock came out empty; restored the original batch.
+重掷失败，看日志。	Reroll failed, check the log.
+钱和租金，改多改少都在这儿	Money and rent, up or down, all here
+面板	Panel
+顶栏可以切 	The top bar switches 
+顾客的货换了一批：	Customer stock rerolled: 
+食物	Food
+鼠标底下没认到物品（	Nothing recognized under the cursor (
+（初始 	(initial 
+（卡片 + 命令行）/ 	(cards + command line) / 
+（只有操作卡片）/ 	(cards only) / 
+（已销毁 	(destroyed 
+（纯命令行）	(command line only)
+（还没得选）	(nothing yet)
+（还没读到事件，先进档）	(no events yet, load a save)
+）—— 把鼠标放到店里的物品上，再按一次 Ctrl+Shift+X。	) — point at an item in the store and press Ctrl+Shift+X again.
+）。现在停在第 	). Stopped on day 
+），容易和别的模组撞车，建议写成 	) — a single key clashes with other mods; use 
+），换下一种。	), trying the next approach.
+），这个顾客可能没有可重掷的数据。	) — this customer may have no reroll data.
+，中文 	, Chinese 
+，今天是第 	, today is day 
+，别忘了 	, don't forget 
+，加个关键词再搜（列表太长没意义）。	; add a keyword to narrow it down (the full list is useless).
+，现在是第 	, now on day 
+# ── 运行时拼起来的句子：源码里保留片段、这里整句收口 ──────────────
+界面已切到亮色风格。	Switched to the light theme.
+界面已切到深色风格。	Switched to the dark theme.
+简单模式	Simple mode
+混合模式	Hybrid mode
+开发者模式	Developer mode
+电闸已合上。	Power is on.
+电闸已断开。	Power is off.
+电闸本来就是通电的。	Power was already on.
+电闸本来就是断电的。	Power was already off.
+硬核模式已打开。	Hardcore mode is on.
+硬核模式已关闭。	Hardcore mode is off.
+ 声望 	 reputation 
+ 物品。	 items.
+# ── 删物品（右键选中 + Ctrl+Shift+X）───────────────────────────────
+已选中 	Selected 
+，按 Ctrl+Shift+X 删掉。	 — press Ctrl+Shift+X to delete.
+先右键点一下要删的物品，再按 Ctrl+Shift+X。	Right-click the item you want to delete, then press Ctrl+Shift+X.
+# ── 特殊功能：举枪 ────────────────────────────────────────────────
+手臂：	Arm: 
+举着	up
+（还剩 	 (
+ 秒）	s left)
+收着	down
+举枪	Raise the gun
+收枪	Lower the gun
+举枪演出：摆出举枪姿势开一枪，纯动画，不会真打死人	Raise the gun: plays the recoil and muzzle flash, purely cosmetic — nobody actually gets shot
+手臂已经举起来了	The arm is up
+手臂收下去了	The arm is down
+秒数	Seconds
+# ── 特殊功能：arm / del 两条命令 ──────────────────────────────────
+特殊功能	Special
+举枪 3 秒	Raise the gun for 3 s
+举枪失败：	Failed to raise the gun: 
+摆个举枪姿势放一枪，纯演出不伤人	Strike a gun pose and pop a shot — pure show, nobody gets hurt
+举枪演出：摆出举枪姿势放一枪（后坐力 + 枪口火光），纯动画，不会真打死人。不给秒数默认 3 秒。	Raise the gun: plays the recoil and muzzle flash, purely cosmetic — nobody actually gets shot. Defaults to 3 seconds.
+取不到 StoreUIManager.arm。	Cannot get StoreUIManager.arm.
+手臂对象上没有 Arm 组件。	No Arm component on that object.
+还没进存档，没有可举的手臂。	Not in a save yet — no arm to raise.
+[API] 举枪手臂链 	[API] Gun-arm chain 
+[API] 右键选物品失败：	[API] Right-click picking failed: 
+[API] 后坐力没播出来：	[API] Recoil did not play: 
+[API] 枪口火光没播出来：	[API] Muzzle flash did not play: 
+(没有手臂对象)	(no arm object)
+(读不到：	(cannot read: 
+删除选中物品	Delete selected item
+删掉选中	Delete selected
+删除	Delete
+先在店里右键点一下物品，再回这里删	Right-click an item in the store first, then come back and delete it
+删掉右键选中的那件物品。在店里右键点一下物品，再敲这条（或按 Ctrl+Shift+X）就行。	Deletes the item you right-clicked. Right-click an item in the store, then run this (or press Ctrl+Shift+X).
+还没选中物品 —— 先在店里右键点一下要删的东西。	Nothing selected yet — right-click the item you want to delete in the store.
+界面已切回中文。	Switched back to Chinese.
+界面语言：zh / en	UI language: zh / en
+强制击杀	Force Kill
+开枪击杀	Shoot to kill
+举枪开一枪，把柜台前这位打死	Raise the gun and put a bullet in whoever is at the counter
+强制击杀：举枪开一枪，把柜台前这位打死（举枪演出 + 游戏自己的中枪 / 倒地结算）。	Force kill: raise the gun and shoot whoever is at the counter (gun pose plus the game's own wound and body-fall handling).
+arm 秒数 只比划不伤人，arm stop 收枪。不给参数就是击杀。	arm <seconds> only strikes the pose, arm stop lowers the gun. No argument means kill.
+一枪打出去了：	Shot fired: 
+ 中枪倒地，后面交给游戏自己收尾。	 hit the floor — the game takes it from here.
+柜台前：没人	At the counter: nobody
+柜台前：	At the counter: 
+取不到店铺界面。	Cannot get the store UI.
+已经打起来了，等这轮演完。	A shootout is already under way — wait for it to play out.
+柜台前没人，等顾客进来再动手。	Nobody at the counter — wait for a customer to walk in.
+取不到柜台前这位的名字。	Cannot read the name of the customer at the counter.
+这位在游戏里标了「开枪打不得」，换个人吧。	This one is flagged "cannot be shot" in the game — pick someone else.
+枪响了，但游戏没把这一枪算成命中。看日志里的「强制击杀」那行。	The gun went off, but the game did not count it as a hit. Check the "Force Kill" line in the log.
+生成 / 查找 / 清理 / 删物品	Spawn / find / clean / delete items
+强制击杀这类花活	Force kills and other party tricks
+属性刷子	Prop brush
+只改这一件	This one only
+同款一起改	All matching items
+prop set <属性> <值>	prop set <attribute> <value>
+prop | set <属性> <值> | same on|off	prop | set <attribute> <value> | same on|off
+ 划过店里物品就能批量刷。	 and sweep over items in the store to batch-edit.
+ 划过物品就能刷。	 and sweep over items to apply it.
+ 已改成 	 changed to 
+ 身上能改的属性：	 — editable attributes:
+Ctrl+Shift+A 划过物品批量改	Hold Ctrl+Shift+A to sweep and batch-edit
+　可选：	 options: 
+　现在是 	 now 
+　（属性名和值都照打标器上那行字写；在卡片上挑更省事）	 (write the attribute name and value exactly as the labeler shows them; picking on the card is easier)
+。按住 Ctrl+Shift+A 划过别的物品接着刷。	. Hold Ctrl+Shift+A and sweep over other items to keep going.
+。按住 Ctrl+Shift+A 划过店里物品就能改。	. Hold Ctrl+Shift+A and sweep over items in the store to apply it.
+。目标记下了，按住 Ctrl+Shift+A 划过别的物品照样能刷。	. Target remembered — hold Ctrl+Shift+A and sweep over other items just the same.
+」这条属性	" attribute
+先右键点一件物品当样板	Right-click an item first to use as a sample
+先右键点一件物品当样板 —— 能改哪几条属性、每条有哪些值，都是照它来的。	Right-click an item first to use as a sample — which attributes can be edited, and what values each allows, all follow from it.
+先在店里右键点一件物品当样板 —— 能改哪几条属性、每条有哪些值，都是照它来的。	Right-click an item in the store first to use as a sample — which attributes can be edited, and what values each allows, all follow from it.
+删掉右键选中的那件物品。在店里右键点一下物品，再敲这条就行 —— 	Deletes the item you right-clicked. Right-click an item in the store, then run this — 
+刷子范围：只改划过的那一件。	Brush scope: only the item you sweep over.
+刷子范围：改一件连店里的同款一起改。	Brush scope: change one and every matching item in the store changes too.
+刷选中这件	Apply to selected
+在店里右键点一下物品选中，按 Ctrl+Shift+X 直接删（不用开面板）	right-click an item in the store to select it, then press Ctrl+Shift+X to delete (no panel needed)
+它身上没有「	it has no "
+属性刷子瞄准了 	Prop brush aimed at 
+或者在「属性刷子」卡上挑；挑完按住 	, or pick it on the "Prop brush" card; then hold 
+所以改完显示字和价值修正是游戏自己算的，不会改出个游戏不认的东西。	so the display text and the value modifier come from the game itself — nothing it would not recognize.
+把柜台前这位顾客带的货换一批：件数和种类都重掷，跟游戏自己刷新的那套一样。	Rerolls the goods the customer at the counter is carrying: counts and kinds are both rerolled, same as the game's own refresh.
+挑好目标后按住 	pick a target, then hold 
+挑目标用 	Pick a target with 
+改成	Change to
+改物品属性用 	Edit item attributes with 
+改物品属性（就是打标器上那几行标签）。写法走游戏自己的打标器通道，	Edits item attributes (the label rows on the labeler). It writes through the game's own labeler path, 
+更省事的是直接按 Ctrl+Shift+X，面板都不用开。	easier still: just press Ctrl+Shift+X, no panel needed.
+柜台前这位带的货换一批	reroll what this customer is carrying
+样板	Sample
+还没选　	not picked yet 
+没写进去（建不出写入行，或者选项对不上）	nothing written (no writer row could be built, or the option does not match)
+物品没了	the item is gone
+这件	this one
+这件物品身上没有游戏认的「可改属性」。换一件当样板。	This item has no attributes the game considers editable. Try another sample.
+（或「属性刷子」卡）：先右键点一件物品当样板，	(or the "Prop brush" card): right-click an item first to use as a sample, 
+刷新客户物品	Refresh customer stock
+没写进去（游戏没认这个值）	nothing written (the game would not take that value)
+打开打标器界面失败：	Could not open the labeler: 
+ 件，但 	 items, but 
+ 划过物品，松手就弹出来。	 and sweep over an item — release and it pops up.
+Ctrl+Shift+A 划过物品，松手弹出游戏的打标器	Hold Ctrl+Shift+A and sweep an item — release to open the game's labeler
+先在店里右键点一件物品（或者把鼠标移到物品上），再来开打标器。	Right-click an item in the store first (or just point at one), then open the labeler.
+划过 	swept 
+（第 	 (item 
+ 件）	)
+在上面改，显示字和价值修正是游戏自己算的。	 and edit there — the display text and the value modifier are computed by the game.
+属性：划过 	Attribute: swept 
+属性：划过了 	Attribute: swept 
+属性：打标器界面开了，在上面改就行。	Attribute: the labeler window is open — just edit there.
+打标器界面开了：改 	Labeler opened: editing 
+打标器界面没弹出来	the labeler window did not come up
+打标器管理器还没就绪	the labeler manager is not ready yet
+改物品属性	Edit item attributes
+改物品属性（就是打标器上那几条标签）—— 直接把游戏自己的打标器界面打开，	Edits item attributes (the label rows on the labeler) — it just opens the game's own labeler window, 
+改选中这件	Edit selected
+更顺手的用法是在店里按住 	Quicker: in the store hold 
+更顺手的用法：在店里按住 Ctrl+Shift+A，鼠标划过哪件就记下哪件，松手弹出界面。	Quicker way: in the store hold Ctrl+Shift+A and sweep over items — every one you touch is remembered, and releasing opens the window.
+没找到物品	no item found
+这件物品	this item
+选中：	Selected: 
+选中：还没选	Selected: none yet
+（或「改物品属性」卡）：把游戏自己的打标器界面打开。	(or the "Edit item attributes" card): opens the game's own labeler window.
+，在上面改就行。	 — just edit there.
+，打标器一次只改一件 → 先开最后划过的那件。要改别的，划过它松手就行。	; the labeler edits one item at a time, so it opened the last one you swept. To edit another, sweep it and release.
+属性：这一批　	Attribute: this batch has　
+　样板是　	　sample is　
+。改哪一条，这一批的同一条属性就一起改。	. Change any row and the whole batch follows.
+属性：界面关了，这一批到此为止；再划过物品可以接着来。	Attribute: panel closed — this batch is done. Sweep again to start a new one.
+属性：	Attribute: 
+　同批改了　	　batch also set　
+　没这条属性的跳过了　	　skipped (no such attribute):　
+　游戏没认的　	　rejected by the game:　
+改物品属性（就是打标器上那几条标签）：在店里按住 Ctrl+Shift+A 划过或者框选一批物品，	Edits item attributes (the rows on the game's own labeler): in the store hold Ctrl+Shift+A and sweep or box-select a batch of items, 
+松手弹出游戏自己的打标器界面 —— 在上面改哪一条，这一批里其余的同一条属性都跟着改。	release to pop up the game's own labeler — change any row there and the rest of the batch follows.
+只想改一件就直接开界面改，一样用。	For a single item, just open the labeler and edit it — same thing.
+Ctrl+Shift+A 划过一批，松手开界面改，整批跟着改	Hold Ctrl+Shift+A to sweep a batch — release, edit, whole batch follows
+批量改就在店里按住 	For a batch: in the store hold 
+ 划过或框选一批，松手弹出界面，	 and sweep or box-select a batch — release to pop it up, 
+改哪一条这一批就跟着改哪一条。	change any row and the whole batch follows.
+标签转成真品质	Make Label Real
+Ctrl+Shift+A 划过一批改标签（整批跟着改）；标签转成真品质 = 真品质也跟标签对齐	Hold Ctrl+Shift+A to sweep a batch and relabel (whole batch follows); Make Label Real = real quality matches the label too
+打标器只贴标签，物品的真品质是另记一笔的；按 prop real（卡片上的「标签转成真品质」）	The labeler only sticks labels — real quality is kept separately. Press prop real (the "Make Label Real" button on the card) 
+才把真品质也拨成标签现在写的那个（装水的瓶子会按那一档整瓶重灌，不用手动倒）。	to set the real quality to whatever the label currently says (water bottles get really refilled to that grade — no manual pouring needed).
+先在店里右键点一件物品（或者把鼠标移到物品上），再来按这个。	Right-click an item in the store first (or hover over one), then press this.
+属性：把 	Attribute: 
+ 的真品质拨成标签现在写的那个，一共 	 items now really are what the label says — 
+ 条	 rows
+属性：这几件上没有打标器能改的属性，没得转。	Attribute: nothing on these items the labeler can edit — nothing to turn real.
+打标器只贴标签；想让真品质也变成标签写的那个，用 	The labeler only sticks labels; to make the real quality match what the label says, use 
+（卡片上「标签转成真品质」那一下）。	 (the "Make Label Real" button on the card).
+这一批 	Batch of
+　另有 	plus 
+ 瓶水	 bottles of water
+ 是按那一档重灌的	 refilled to that grade
+件药	 chemical items
+的真纯度也按标签写了	 also got their real purity set from the label 

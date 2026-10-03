@@ -1,0 +1,12 @@
+﻿对照表 650 条，待译字面量 652 条（豁免 14 条）
+缺条目：5 条
+  MISS CmdGame.cs:341:1  电闸已   ==>   电闸已
+  MISS CmdGame.cs:339:1  电闸本来就是   ==>   电闸本来就是
+  MISS ConsoleUI.cs:348:1  界面已切到   ==>   界面已切到
+  MISS CmdGame.cs:374:1  硬核模式已   ==>   硬核模式已
+  MISS ConsoleUI.cs:348:1  风格。   ==>   风格.
+拼句检查不过：3 条
+  COMP 已删除 <c>止痛药</c><c> (右键悬停)</c>   ==>   Deleted <c>止痛药</c><c> (RMB hover)</c>
+  COMP 已选中 <c>止痛药</c><c> (右键悬停)</c>，按 Ctrl+Shift+X 删掉。   ==>   Selected <c>止痛药</c><c> (RMB hover)</c> — press Ctrl+Shift+X to delete.
+  COMP 电闸本来就是断开的。   ==>   电闸本来就是断开的.
+已写出 E:\a_开发\Debug Console\Debug Console\L10n.cs

@@ -1,0 +1,127 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>DebugConsole</AssemblyName>
+    <RootNamespace>DebugConsole</RootNamespace>
+    <LangVersion>9.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+
+    <!-- 本机只装了 .NET 10 的 targeting pack，没有 6.0 的。
+         关掉隐式框架引用，改为直接引用 .NET 6 运行时程序集，避免去拉 6.0 的 ref pack。 -->
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <NoWarn>$(NoWarn);CS0169;CS0649;CS0414</NoWarn>
+  </PropertyGroup>
+
+  <!-- 换机器只需改这三行 -->
+  <PropertyGroup>
+    <GameDir>D:\Steam\steamapps\common\Probably Stolen Demo</GameDir>
+    <Il2CppDir>$(GameDir)\MelonLoader\Il2CppAssemblies</Il2CppDir>
+    <MelonNet6Dir>$(GameDir)\MelonLoader\net6</MelonNet6Dir>
+    <DotNet6Dir>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.36</DotNet6Dir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MelonLoader">
+      <HintPath>$(MelonNet6Dir)\MelonLoader.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(MelonNet6Dir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>$(MelonNet6Dir)\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(Il2CppDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(Il2CppDir)\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>$(Il2CppDir)\Il2Cppmscorlib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(Il2CppDir)\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(Il2CppDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(Il2CppDir)\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(Il2CppDir)\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(Il2CppDir)\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 核心类型（String/Int32/Object…）定义在 System.Private.CoreLib，
+         其余 System.* 只是转发程序集，必须显式引用核心库 -->
+    <Reference Include="System.Private.CoreLib">
+      <HintPath>$(DotNet6Dir)\System.Private.CoreLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Uri 在 System.Private.Uri 里，路径/程序集名解析要用到 -->
+    <Reference Include="System.Private.Uri">
+      <HintPath>$(DotNet6Dir)\System.Private.Uri.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>$(DotNet6Dir)\System.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>$(DotNet6Dir)\System.Runtime.Extensions.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>$(DotNet6Dir)\System.Collections.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>$(DotNet6Dir)\System.Linq.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- 反射调试命令（types / fields / get / call）要靠它枚举程序集里的类型 -->
+    <Reference Include="System.Reflection">
+      <HintPath>$(DotNet6Dir)\System.Reflection.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>$(DotNet6Dir)\System.Threading.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>$(DotNet6Dir)\System.Text.Encoding.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>$(DotNet6Dir)\System.IO.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>$(DotNet6Dir)\netstandard.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

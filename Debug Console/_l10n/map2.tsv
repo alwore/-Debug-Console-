@@ -1,0 +1,102 @@
+fields <类型> [关键词]	fields <Type> [keyword]
+get <类型.成员>	get <Type.Member>
+get <类型.成员[.成员…]>	get <Type.Member[.Member...]>
+help [命令]	help [command]
+item count <物品>	item count <item>
+item count 物品	item count <item>
+item list [页]	item list [page]
+item list [页] | search <关键词> | count <物品> | own <物品>	item list [page] | search <keyword> | count <item> | own <item>
+item own <物品>	item own <item>
+item own 物品	item own <item>
+list 列出游戏里注册的全部事件触发器；fire 编号 直接触发其中一个（供水危机这种）；	list shows every event trigger the game registered; fire <n> activates one (a water-supply crisis, say); 
+methods <类型> [关键词]	methods <Type> [keyword]
+money [set|add|sub] [数额]	money [set|add|sub] [amount]
+money set|add|sub 数额	money set|add|sub <amount>
+night <文本>	night <text>
+night 要写的话	night <your note>
+refresh 让游戏重掷今天的事件。	refresh rerolls today's events.
+rent days 天数	rent days <n>
+rent set 数额	rent set <amount>
+rep [区 点数]	rep [faction points]
+rep 区 点数	rep <faction> <points>
+rep 黑市 50	rep bm 50
+spawn <物品> [数量] [柜台|仓库]	spawn <item> [count] [counter|store]
+types <关键词>	types <keyword>
+types 关键词	types <keyword>
+· 反射三件套 get / set / call 能碰到游戏里的任何字段，改坏了自负	· The get / set / call trio reaches any field in the game; break it and it is on you
+· 命令行里 Tab 补全、↑↓ 翻历史	· In the command line: Tab completes, ↑↓ walks history
+· 左边按分类列出命令，点一下就直接执行（带参数的会把命令填进输入框）	· Commands are listed by category on the left; click one to run it (ones needing arguments just fill the input box)
+· 顶栏可以切三种模式：	· The top bar switches between three modes: 
+…跳过 	...skipped 
+…还有 	...and 
+── 事件列表 ─────────────────────	── Event List ─────────────────────
+── 各区声望 ─────────────────────	── Faction Reputation ─────────────────────
+── 命令一览 ─────────────────────	── Commands ─────────────────────
+── 当前状态 ─────────────────────	── Current Status ─────────────────────
+◀ 返回	◀ Back
+◀ 返回命令	◀ Back to Commands
+★ 收藏	★ Favorite
+　[	 [
+　　改造　	 · Augmentation 
+　　硬核　	 · Hardcore 
+　一天一天推进，进度会打在下面；想停就 	 · One day at a time; progress shows below. To stop: 
+　共 	 · 
+　写负数就是扣。	 · negative numbers subtract.
+　分类：	 Category: 
+　别名：	 Aliases: 
+　天数得是正数。	 Days must be positive.
+　按中文名或 ID 搜索	 search by name or ID
+　柜台里共 	 · the counter holds 
+　柜台里有几件这件货	 how many of this item sit on the counter
+　游戏认为你拥有这件货吗	 does the game think you own this item
+　第 	 · Page 
+　编号从 	 numbers come from 
+　翻全部物品 ID + 中文名	 browse every item ID + name
+、	, 
+「治安区」「反抗军」这种叫法也认。	"security" / "rebel" style aliases work too.
+」、参数个数为 	"; argument count is 
+」之后走不下去了（值为空）。	"; cannot go on (value is null).
+」匹配到 	" matched 
+」匹配到多个类型，把名字写全：	" matched several types; write the full name:
+」是哪个区。	" is not a known faction.
+」是实例成员，但找不到它的单例入口，得自己先拿到对象。	" is an instance member but its singleton entry is unreachable; grab the object yourself first.
+」的命令。	".
+」的物品。用 	". Try 
+」的类型。	".
+」解析不出键位，改用默认 	" cannot be parsed; falling back to 
+」解析出来是空物品。	" resolved to an empty item.
+」转不成 	" cannot convert to 
+」（目标类型 	" (target type 
+」，这一段忽略了。	" — skipping it.
+【	[
+【调试】	[Debug] 
+】	]
+一屏看完金钱、租金、声望、开关	money, rent, reputation and flags at a glance
+一屏看完金钱、租金、声望、电闸、硬核开关这些关键数值。	Every key number on one screen: money, rent, reputation, power, hardcore.
+一次最多刷 200 件，已按 200 处理。	At most 200 per spawn; using 200.
+三种入口都没推动天数。现在停在第 	None of the three entry points advanced the day. Stuck at day 
+上层	Upper
+上面一排	the row above
+下层	Lower
+下拉框里挑一个事件，点触发就推上场	Pick an event in the dropdown, hit Fire to push it live
+不带参数列出每个区的声望；写「区 点数」只改那一个区，正数加、负数扣。	With no arguments lists every faction's reputation; write "faction points" to change one — positive adds, negative subtracts.
+不带参数看当前租金和还欠几天；set 改金额，days 改倒计时天数。	With no arguments shows rent and days left; set changes the amount, days changes the countdown.
+不带参数看当前金钱；set 直接改成这个数；add / sub 加减，写负数一样是减。	With no arguments shows money; set overwrites it; add / sub adjust it (a negative number subtracts too).
+不是字段也不是属性	is neither a field nor a property
+不认识的值「	Unrecognized value "
+不认识的命令：	Unknown command: 
+中间那些卡片点一下就能改，分类在	The tiles in the middle change things with one click; categories are at
+主菜单 · 未进存档	Main Menu · No save loaded
+主题	Theme
+也可以直接敲命令：	Or type a command: 
+事件 	Event 
+事件管理器没起来。	The event manager is not up yet.
+仓库库存对象为空。	Backroom inventory is null.
+仓库（后间）	Backroom (store)
+估价 	Value 
+候选 	Candidates: 
+停	stop
+先在网格里点一件货。	Click an item in the grid first.
+先挑一个区，再填点数，正数加、负数扣	Pick a faction, then enter points — positive adds, negative subtracts
+全部分类	All Categories
+全部命令	All Commands

@@ -1,0 +1,809 @@
+CmdGame.cs:140	18	用法：
+CmdGame.cs:82	17	 件
+CmdGame.cs:870	12	　
+CmdGame.cs:248	12	。
+CmdGame.cs:58	9	 天
+Cmd.cs:199	8	物品
+CmdGame.cs:692	7	：
+CmdGame.cs:162	6	　(
+CmdGame.cs:146	6	「
+CmdGame.cs:705	6	」。
+CmdGame.cs:291	6	写入失败。
+GameApi.cs:1400	6	空
+GameApi.cs:925	5	武器配件
+CmdSys.cs:94	5	混合
+CmdSys.cs:93	5	简单
+GameApi.cs:219	5	还没进存档。
+Cmd.cs:53	4	关
+Cmd.cs:52	4	开
+CmdSys.cs:95	4	开发者
+CmdReflect.cs:202	4	找不到类型「
+CmdSys.cs:167	4	调试控制台
+CmdReflect.cs:390	3	 失败：
+CmdGame.cs:440	3	item search 关键词
+CmdGame.cs:58	3	　还欠 
+CmdGame.cs:170	3	」。用法：
+CmdGame.cs:170	3	不认识的写法「
+CmdGame.cs:835	3	事件
+Cmd.cs:198	3	存档
+CmdGame.cs:318	3	断电
+GameApi.cs:1400	3	无
+GameApi.cs:1400	3	有
+GameApi.cs:934	3	机器
+GameApi.cs:917	3	杂项
+CmdGame.cs:318	3	通电
+GameApi.cs:713	3	）：
+CmdReflect.cs:368	2	 上没有成员「
+CmdReflect.cs:228	2	 个类型
+GameApi.cs:1008	2	 件。
+ConsoleUI.cs:2189	2	 件）
+CmdGame.cs:243	2	 天）。
+GameApi.cs:400	2	 天，状态：
+CmdReflect.cs:500	2	 是空值。
+GameApi.cs:2168	2	 条
+GameApi.cs:2777	2	[API] 枚举库存失败：
+GameApi.cs:2998	2	[API] 销毁旧货失败：
+CmdReflect.cs:109	2	call <类型.方法> [参数…]
+CmdGame.cs:836	2	event [list | fire 编号 | refresh]
+CmdGame.cs:874	2	event fire 编号
+CmdGame.cs:256	2	rent [set 数额 | days 天数]
+CmdReflect.cs:92	2	set <类型.成员> <值>
+CmdGame.cs:207	2	skip [天数 | stop]
+CmdGame.cs:414	2	spawn <物品|中文名> [数量] [柜台|仓库]
+CmdGame.cs:418	2	spawn 止痛药 5
+CmdSys.cs:167	2	　v
+GameApi.cs:2169	2	　另有 
+GameApi.cs:2351	2	　档位 
+GameApi.cs:1843	2	　游戏没认的　
+CmdGame.cs:991	2	　物品目录 
+Cmd.cs:336	2	　用 
+GameApi.cs:2353	2	　纯度 
+CmdReflect.cs:202	2	」。用 
+CmdGame.cs:146	2	」不是个数字。
+CmdGame.cs:691	2	」的物品。
+CmdGame.cs:243	2	上一次连跳还没走完（还剩 
+CmdGame.cs:916	2	上层区
+CmdGame.cs:916	2	下层区
+GameApi.cs:841	2	今天没有事件
+CmdGame.cs:457	2	仓库
+ConsoleUI.cs:728	2	先在框里填内容。
+ConsoleUI.cs:1011	2	全部
+ConsoleUI.cs:1245	2	全部功能
+CmdSys.cs:154	2	关于
+CmdSys.cs:142	2	关闭
+CmdGame.cs:155	2	写入金钱失败。
+CmdGame.cs:1005	2	击杀
+ConsoleUI.cs:1006	2	分类
+CmdGame.cs:498	2	刷新
+CmdGame.cs:692	2	匹配 
+GameApi.cs:919	2	医疗
+CmdGame.cs:823	2	否
+GameApi.cs:930	2	容器设施
+GameApi.cs:918	2	工具
+CmdGame.cs:1071	2	已删除 
+CmdGame.cs:810	2	已引入
+ConsoleUI.cs:266	2	开发
+ConsoleUI.cs:1245	2	所有分类的功能都摊在这儿
+CmdGame.cs:566	2	打开打标器界面失败：
+ConsoleUI.cs:677	2	执行失败：
+CmdGame.cs:705	2	找不到物品「
+ConsoleUI.cs:860	2	按住左边标题栏拖动
+CmdGame.cs:823	2	是
+CmdGame.cs:810	2	未引入
+GameApi.cs:924	2	材料
+CmdGame.cs:593	2	柜台前：
+CmdGame.cs:593	2	柜台前：没人
+GameApi.cs:932	2	模块
+CmdSys.cs:83	2	模式
+GameApi.cs:2706	2	正在处理抓捕，等这段演完。
+GameApi.cs:2705	2	正在讨价还价，先把这笔谈完。
+CmdGame.cs:691	2	没有匹配「
+CmdGame.cs:916	2	治安部
+CmdSys.cs:53	2	清屏
+Cmd.cs:200	2	状态
+CmdGame.cs:96	2	第 
+CmdGame.cs:885	2	触发
+CmdGame.cs:264	2	设置
+CmdReflect.cs:356	2	路径要写成「类型.成员」，例如 PlayerStore.instance.playerCash
+CmdGame.cs:568	2	这件物品
+Cmd.cs:197	2	金钱
+CmdGame.cs:161	2	金钱 
+CmdGame.cs:916	2	革命军
+CmdGame.cs:916	2	黑市
+CmdGame.cs:281	2	）
+CmdGame.cs:581	2	）。
+GameApi.cs:2327	2	），没灌成
+CmdGame.cs:580	2	，
+ConsoleUI.cs:837	1	 三种模式。
+CmdReflect.cs:560	1	 上找不到名叫「
+ConsoleUI.cs:613	1	 个
+GameApi.cs:828	1	 个。
+ConsoleUI.cs:1278	1	 个卡片
+CmdReflect.cs:573	1	 个参数：
+CmdReflect.cs:164	1	 个类型。
+Fonts.cs:58	1	 个）
+CmdGame.cs:1036	1	 中枪倒地，后面交给游戏自己收尾。
+GameApi.cs:869	1	 之间。
+CmdGame.cs:506	1	 件 → 
+GameApi.cs:1219	1	 件失败：
+GameApi.cs:3034	1	 件没能销毁。
+GameApi.cs:2170	1	 件药
+CmdGame.cs:717	1	 件货
+GameApi.cs:1730	1	 件，但 
+CmdGame.cs:443	1	 件，把 ID 写全一点：
+GameApi.cs:1219	1	 件，第 
+CmdGame.cs:12	1	 元
+ConsoleUI.cs:2365	1	 关闭　Esc 收起输入
+ConsoleUI.cs:2365	1	 关闭　滚轮翻方块
+CmdGame.cs:583	1	 划过或框选一批，松手弹出界面，
+ConsoleUI.cs:835	1	 刷货。
+ConsoleUI.cs:834	1	 加钱，
+CmdReflect.cs:512	1	 只有 getter，是只读的。
+CmdGame.cs:793	1	 声望 
+GameApi.cs:1414	1	 多选=
+GameApi.cs:1416	1	 多选=错
+CmdGame.cs:96	1	 天 · 
+CmdGame.cs:977	1	 天　起始 
+GameApi.cs:419	1	 天，状态 
+GameApi.cs:1407	1	 左键=
+GameApi.cs:1409	1	 左键=错
+Core.cs:132	1	 已加载，共 
+CmdReflect.cs:102	1	 已设为 
+CmdReflect.cs:589	1	 已调用（无返回值）。
+Core.cs:133	1	 打开。
+Cmd.cs:349	1	 执行失败：
+CmdReflect.cs:217	1	 找。
+CmdGame.cs:440	1	 找找。
+Core.cs:233	1	 挂载失败：
+CmdReflect.cs:202	1	 搜搜看。
+CmdGame.cs:140	1	 数额
+CmdReflect.cs:500	1	 是实例成员，但 
+CmdReflect.cs:565	1	 是实例方法，但 
+GameApi.cs:2169	1	 是按那一档重灌的
+CmdReflect.cs:542	1	 是空值，没法调它的方法。
+CmdReflect.cs:627	1	 有类型但没找到单例，换个参数写法。
+ConsoleUI.cs:1277	1	 条命令
+Core.cs:133	1	 条命令。默认按 
+GameApi.cs:2158	1	 条转真
+CmdGame.cs:647	1	 条，再写细一点。
+ConsoleUI.cs:2191	1	 物品。
+GameApi.cs:2169	1	 瓶水
+CmdReflect.cs:380	1	 的「
+CmdReflect.cs:491	1	 的值是空的，写不进去。
+CmdReflect.cs:560	1	 的方法。
+GameApi.cs:2168	1	 的真品质拨成标签现在写的那个，一共 
+GameApi.cs:2170	1	 的真纯度也按标签写了
+Cmd.cs:336	1	 看全部命令。
+ConsoleUI.cs:836	1	 看全部命令，Tab 补全，↑↓ 翻历史。
+ConsoleUI.cs:833	1	 看状态，
+CmdReflect.cs:368	1	 看看。
+GameApi.cs:2512	1	 真条件 
+GameApi.cs:396	1	 种入口报错：
+GameApi.cs:419	1	 种入口没推动天数（还是第 
+CmdGame.cs:1045	1	 秒）。
+CmdGame.cs:665	1	 翻页
+CmdReflect.cs:593	1	 返回 
+Core.cs:174	1	 这种组合。
+CmdGame.cs:891	1	 里看。
+CmdGame.cs:664	1	 页
+CmdReflect.cs:664	1	 项] 
+GameApi.cs:2649	1	(没有手臂对象)
+CmdReflect.cs:652	1	(空字符串)
+GameApi.cs:2664	1	(读不到：
+CmdGame.cs:956	1	)　
+CmdGame.cs:457	1	)　放进了
+CmdGame.cs:117	1	10000 或 -5000
+CmdReflect.cs:678	1	<取不到>
+CmdReflect.cs:690	1	<显示失败：
+CmdGame.cs:525	1	Ctrl+Shift+A 划过一批改标签（整批跟着改）；标签转成真品质 = 真品质也跟标签对齐
+Core.cs:129	1	Harmony 补丁挂载失败：
+CmdSys.cs:46	1	Tab 补全命令，↑ ↓ 翻历史，点左边快捷栏直接执行。
+GameApi.cs:227	1	[API] CanEndDay() 说不行，仍然强推 EndDay()。
+GameApi.cs:2596	1	[API] 举枪手臂链 
+GameApi.cs:480	1	[API] 关打烊面板失败：
+GameApi.cs:500	1	[API] 关清晨面板失败：
+GameApi.cs:195	1	[API] 写夜间日志失败：
+GameApi.cs:615	1	[API] 切换界面导航失败：
+GameApi.cs:624	1	[API] 刷新柜台失败：
+GameApi.cs:754	1	[API] 取事件管理器失败：
+GameApi.cs:1243	1	[API] 取库存失败：
+GameApi.cs:1130	1	[API] 取物品图标失败（
+GameApi.cs:1458	1	[API] 右键选物品失败：
+GameApi.cs:2589	1	[API] 后坐力没播出来：
+GameApi.cs:1890	1	[API] 备写入行失败：
+GameApi.cs:205	1	[API] 存档失败：
+GameApi.cs:1927	1	[API] 属性写入失败：
+GameApi.cs:1682	1	[API] 属性划过失败：
+GameApi.cs:1885	1	[API] 属性：隐藏写入行备好了。
+GameApi.cs:535	1	[API] 开关游戏输入失败：
+GameApi.cs:2735	1	[API] 开枪结算失败：
+GameApi.cs:2750	1	[API] 强制击杀 
+GameApi.cs:1544	1	[API] 快捷删除失败：
+GameApi.cs:1252	1	[API] 找空位失败：
+GameApi.cs:2846	1	[API] 摘物品失败：
+GameApi.cs:727	1	[API] 改声望失败（
+GameApi.cs:177	1	[API] 改开关失败：
+GameApi.cs:127	1	[API] 改租金失败：
+GameApi.cs:136	1	[API] 改缴租天数失败：
+GameApi.cs:89	1	[API] 改金钱失败：
+GameApi.cs:2968	1	[API] 新建顾客实例失败：
+GameApi.cs:1002	1	[API] 枚举物品目录失败：
+GameApi.cs:1292	1	[API] 枚举背包失败：
+GameApi.cs:2591	1	[API] 枪口火光没播出来：
+GameApi.cs:2523	1	[API] 标签转真失败：
+GameApi.cs:2511	1	[API] 标签转真：
+GameApi.cs:2747	1	[API] 标记命中失败：
+GameApi.cs:2361	1	[API] 灌水失败：
+GameApi.cs:2353	1	[API] 灌水：
+GameApi.cs:2328	1	[API] 灌水：倒空之后还是没容量（amount=
+GameApi.cs:2313	1	[API] 灌水：认不出标签是哪一档 
+GameApi.cs:419	1	[API] 第 
+GameApi.cs:2403	1	[API] 药转真失败：
+GameApi.cs:2396	1	[API] 药转真：
+GameApi.cs:2907	1	[API] 触发对话收尾失败：
+GameApi.cs:343	1	[API] 读不到天数，跳天改用盲推模式。
+GameApi.cs:800	1	[API] 读事件名失败：
+GameApi.cs:713	1	[API] 读声望失败（
+GameApi.cs:261	1	[API] 读天数失败：
+GameApi.cs:821	1	[API] 读威胁事件失败：
+GameApi.cs:819	1	[API] 读常规事件失败：
+GameApi.cs:157	1	[API] 读开关失败：
+GameApi.cs:858	1	[API] 读当前事件失败：
+GameApi.cs:823	1	[API] 读氛围事件失败：
+GameApi.cs:1042	1	[API] 读物品目录失败：
+GameApi.cs:116	1	[API] 读租金失败：
+GameApi.cs:72	1	[API] 读金钱失败：
+GameApi.cs:396	1	[API] 跳天第 
+GameApi.cs:2954	1	[API] 重建顾客模板失败：
+GameApi.cs:899	1	[API] 重掷事件失败：
+GameApi.cs:3067	1	[API] 鼠标屏蔽切换失败：
+GameApi.cs:828	1	[事件] 事件清单已加载，
+CmdReflect.cs:164	1	[反射] 类型索引已建立，
+Cmd.cs:349	1	[命令] 
+Fonts.cs:62	1	[字体] 初始化失败：
+Fonts.cs:85	1	[字体] 找场景字体失败：
+Fonts.cs:56	1	[字体] 控制台字体 = 
+Fonts.cs:106	1	[字体] 枚举字体失败：
+GameApi.cs:1008	1	[物品] 物品控制台目录已加载，
+GameApi.cs:1036	1	[物品] 目录已加载，
+GameApi.cs:986	1	[物品] 读目录 
+ConsoleUI.cs:1856	1	[界面] 下拉框同步选择失败：
+ConsoleUI.cs:1884	1	[界面] 下拉框选择失败：
+Ui.cs:286	1	[界面] 关闭导航失败：
+Ui.cs:515	1	[界面] 关闭按钮过渡失败：
+ConsoleUI.cs:480	1	[界面] 刷新失败：
+ConsoleUI.cs:1488	1	[界面] 取下拉选项失败：
+ConsoleUI.cs:820	1	[界面] 建面板失败：
+Ui.cs:717	1	[界面] 悬停检测失败：
+Ui.cs:189	1	[界面] 挂 
+ConsoleUI.cs:814	1	[界面] 控制台面板已就绪（
+Ui.cs:765	1	[界面] 没挂上 GraphicRaycaster，按钮会点不动。
+Ui.cs:155	1	[界面] 生成圆角图失败，改用直角：
+Ui.cs:526	1	[界面] 绑定按钮失败：
+Ui.cs:751	1	[界面] 设置画布失败：
+Ui.cs:603	1	[界面] 配置输入框失败：
+Core.cs:292	1	[调试] 
+CmdGame.cs:1006	1	arm [kill|秒数|stop]
+CmdGame.cs:1008	1	arm 秒数 只比划不伤人，arm stop 收枪。不给参数就是击杀。
+CmdReflect.cs:46	1	fields <类型> [关键词]
+CmdReflect.cs:81	1	get <类型.成员>
+CmdReflect.cs:75	1	get <类型.成员[.成员…]>
+CmdSys.cs:15	1	help [命令]
+CmdGame.cs:698	1	item count <物品>
+CmdGame.cs:578	1	item count 物品
+CmdGame.cs:576	1	item list [页]
+CmdGame.cs:465	1	item list [页] | search <关键词> | count <物品> | own <物品>
+CmdGame.cs:722	1	item own <物品>
+CmdGame.cs:579	1	item own 物品
+CmdGame.cs:469	1	item search 药
+CmdGame.cs:837	1	list 列出游戏里注册的全部事件触发器；fire 编号 直接触发其中一个（供水危机这种）；
+CmdReflect.cs:61	1	methods <类型> [关键词]
+CmdGame.cs:109	1	money [set|add|sub] [数额]
+CmdGame.cs:170	1	money set|add|sub 数额
+CmdGame.cs:383	1	night <文本>
+CmdGame.cs:395	1	night 要写的话
+CmdGame.cs:838	1	refresh 让游戏重掷今天的事件。
+CmdGame.cs:298	1	rent days 天数
+CmdGame.cs:290	1	rent set 数额
+CmdGame.cs:762	1	rep [区 点数]
+CmdGame.cs:783	1	rep 区 点数
+CmdGame.cs:958	1	rep 黑市 50
+CmdGame.cs:580	1	spawn <物品> [数量] [柜台|仓库]
+CmdReflect.cs:36	1	types <关键词>
+CmdReflect.cs:217	1	types 关键词
+CmdSys.cs:174	1	· 反射三件套 get / set / call 能碰到游戏里的任何字段，改坏了自负
+CmdSys.cs:173	1	· 命令行里 Tab 补全、↑↓ 翻历史
+CmdSys.cs:172	1	· 左边按分类列出命令，点一下就直接执行（带参数的会把命令填进输入框）
+CmdSys.cs:169	1	· 顶栏可以切三种模式：
+GameApi.cs:440	1	…跳过 
+CmdGame.cs:647	1	…还有 
+CmdGame.cs:864	1	── 事件列表 ─────────────────────
+CmdGame.cs:949	1	── 各区声望 ─────────────────────
+CmdSys.cs:35	1	── 命令一览 ─────────────────────
+CmdGame.cs:974	1	── 当前状态 ─────────────────────
+ConsoleUI.cs:1301	1	◀ 返回
+ConsoleUI.cs:882	1	◀ 返回命令
+ConsoleUI.cs:1707	1	★ 收藏
+ConsoleUI.cs:829	1	　Probably Stolen Demo
+CmdGame.cs:869	1	　[
+CmdGame.cs:989	1	　　改造　
+CmdGame.cs:988	1	　　硬核　
+CmdGame.cs:248	1	　一天一天推进，进度会打在下面；想停就 
+ConsoleUI.cs:1959	1	　共 
+CmdGame.cs:959	1	　写负数就是扣。
+CmdSys.cs:190	1	　分类：
+CmdSys.cs:188	1	　别名：
+GameApi.cs:1841	1	　同批改了　
+GameApi.cs:2753	1	　命中旗 
+CmdGame.cs:238	1	　天数得是正数。
+GameApi.cs:2752	1	　射击模式 
+CmdGame.cs:577	1	　按中文名或 ID 搜索
+CmdGame.cs:717	1	　柜台里共 
+CmdGame.cs:578	1	　柜台里有几件这件货
+GameApi.cs:1740	1	　样板是　
+GameApi.cs:1842	1	　没这条属性的跳过了　
+CmdGame.cs:579	1	　游戏认为你拥有这件货吗
+CmdGame.cs:664	1	　第 
+CmdGame.cs:891	1	　编号从 
+CmdGame.cs:576	1	　翻全部物品 ID + 中文名
+GameApi.cs:851	1	、
+GameApi.cs:1741	1	。改哪一条，这一批的同一条属性就一起改。
+CmdGame.cs:765	1	「治安区」「反抗军」这种叫法也认。
+CmdReflect.cs:560	1	」、参数个数为 
+CmdReflect.cs:400	1	」之后走不下去了（值为空）。
+CmdGame.cs:443	1	」匹配到 
+CmdReflect.cs:196	1	」匹配到多个类型，把名字写全：
+CmdGame.cs:779	1	」是哪个区。
+CmdReflect.cs:380	1	」是实例成员，但找不到它的单例入口，得自己先拿到对象。
+CmdSys.cs:31	1	」的命令。
+CmdGame.cs:440	1	」的物品。用 
+CmdReflect.cs:239	1	」的类型。
+Core.cs:167	1	」解析不出键位，改用默认 
+GameApi.cs:1236	1	」解析出来是空物品。
+CmdReflect.cs:634	1	」转不成 
+GameApi.cs:2350	1	」重灌　真纯度 
+CmdReflect.cs:638	1	」（目标类型 
+GameApi.cs:2394	1	」）
+Core.cs:157	1	」，这一段忽略了。
+CmdSys.cs:43	1	【
+CmdGame.cs:396	1	【调试】
+CmdSys.cs:43	1	】
+CmdGame.cs:750	1	一屏看完金钱、租金、声望、开关
+CmdGame.cs:745	1	一屏看完金钱、租金、声望、电闸、硬核开关这些关键数值。
+CmdGame.cs:1036	1	一枪打出去了：
+CmdGame.cs:451	1	一次最多刷 200 件，已按 200 处理。
+GameApi.cs:425	1	三种入口都没推动天数。现在停在第 
+GameApi.cs:654	1	上层
+ConsoleUI.cs:831	1	上面一排
+GameApi.cs:652	1	下层
+CmdGame.cs:768	1	下层区 上层区 治安部 黑市 革命军
+CmdGame.cs:930	1	下拉框里挑一个事件，点触发就推上场
+CmdGame.cs:763	1	不带参数列出每个区的声望；写「区 点数」只改那一个区，正数加、负数扣。
+CmdGame.cs:257	1	不带参数看当前租金和还欠几天；set 改金额，days 改倒计时天数。
+CmdGame.cs:110	1	不带参数看当前金钱；set 直接改成这个数；add / sub 加减，写负数一样是减。
+CmdReflect.cs:440	1	不是字段也不是属性
+CmdReflect.cs:638	1	不认识的值「
+Cmd.cs:335	1	不认识的命令：
+ConsoleUI.cs:870	1	中
+ConsoleUI.cs:830	1	中间那些卡片点一下就能改，分类在
+ConsoleUI.cs:2423	1	主菜单 · 未进存档
+CmdSys.cs:71	1	主题
+CmdGame.cs:1005	1	举枪
+CmdGame.cs:1044	1	举枪失败：
+CmdGame.cs:1014	1	举枪开一枪，把柜台前这位打死
+ConsoleUI.cs:833	1	也可以直接敲命令：
+GameApi.cs:803	1	事件 
+GameApi.cs:872	1	事件管理器没起来。
+ConsoleUI.cs:874	1	亮色
+GameApi.cs:1248	1	仓库库存对象为空。
+ConsoleUI.cs:2162	1	仓库（后间）
+GameApi.cs:2234	1	优质
+ConsoleUI.cs:2220	1	估价 
+ConsoleUI.cs:613	1	候选 
+CmdGame.cs:228	1	停
+GameApi.cs:1526	1	先右键点一下要删的物品，再按 Ctrl+Shift+X。（
+CmdGame.cs:559	1	先在店里右键点一件物品（或者把鼠标移到物品上），再来开打标器。
+CmdGame.cs:544	1	先在店里右键点一件物品（或者把鼠标移到物品上），再来按这个。
+ConsoleUI.cs:2173	1	先在网格里点一件货。
+CmdGame.cs:919	1	先挑一个区，再填点数，正数加、负数扣
+ConsoleUI.cs:1663	1	全部分类
+ConsoleUI.cs:2432	1	全部命令
+ConsoleUI.cs:1686	1	全部物品
+CmdReflect.cs:228	1	共 
+CmdSys.cs:144	1	关掉控制台，回到游戏。
+ConsoleUI.cs:339	1	关闭控制台失败：
+CmdGame.cs:359	1	关闭硬核
+GameApi.cs:923	1	养殖
+CmdReflect.cs:93	1	写一个字段/属性。值支持数字、true/false、字符串、枚举名、null。
+CmdGame.cs:388	1	写一条自己的记录进去
+CmdGame.cs:389	1	写入
+CmdReflect.cs:518	1	写入失败：
+CmdGame.cs:199	1	写存档失败，看 MelonLoader 日志。
+ConsoleUI.cs:832	1	切。
+CmdSys.cs:85	1	切界面模式：simple 只有操作卡片，hybrid 卡片 + 命令行，dev 纯命令行带反射调试。
+CmdSys.cs:116	1	切界面：items 打开物品控制台（一柜的货点着刷），back 回到命令界面。
+GameApi.cs:1716	1	划过 
+CmdSys.cs:16	1	列出全部命令；给个命令名看它的详细用法。
+CmdReflect.cs:47	1	列出某个类型的所有字段/属性；静态的会连当前值一起打出来。
+CmdReflect.cs:62	1	列出某个类型的方法（只列名字和参数，不带返回值）。
+CmdGame.cs:1054	1	删掉右键选中的那件物品。在店里右键点一下物品，再敲这条就行 —— 
+CmdGame.cs:1063	1	删掉选中
+CmdGame.cs:1052	1	删除
+GameApi.cs:1534	1	删除失败：
+CmdGame.cs:1060	1	删除选中物品
+CmdGame.cs:413	1	刷
+CmdGame.cs:496	1	刷新客户物品
+CmdGame.cs:505	1	刷新客户物品失败：
+CmdGame.cs:489	1	刷新顾客
+CmdGame.cs:422	1	刷物品
+CmdGame.cs:915	1	区
+CmdGame.cs:764	1	区写中文名（下层区 / 上层区 / 治安部 / 黑市 / 革命军）或者 ID（ll / ul / sec / bm / rev）都认，
+Cmd.cs:202	1	反射调试
+GameApi.cs:660	1	反抗
+GameApi.cs:660	1	反抗军
+GameApi.cs:2579	1	取不到 StoreUIManager.arm。
+GameApi.cs:2703	1	取不到店铺界面。
+GameApi.cs:2940	1	取不到当前顾客的资料。
+GameApi.cs:2709	1	取不到柜台前这位的名字。
+CmdGame.cs:357	1	只在运行时生效，存档里记的是开局选的
+CmdGame.cs:517	1	只想改一件就直接开界面改，一样用。
+CmdReflect.cs:436	1	只有 setter，没有 getter
+ConsoleUI.cs:1686	1	只看收藏
+Fonts.cs:57	1	可能显示为方块
+GameApi.cs:1400	1	右键=
+GameApi.cs:1402	1	右键=错
+GameApi.cs:1363	1	右键悬停
+CmdGame.cs:919	1	各区声望
+CmdGame.cs:320	1	合闸
+CmdGame.cs:636	1	后仓
+ConsoleUI.cs:1022	1	命令
+CmdSys.cs:21	1	命令一览
+Cmd.cs:348	1	命令执行中抛异常：
+ConsoleUI.cs:1592	1	回到命令界面。
+CmdReflect.cs:560	1	在 
+CmdGame.cs:1060	1	在店里右键点一下物品选中，按 Ctrl+Shift+X 直接删（不用开面板）
+CmdSys.cs:73	1	在深色 / 亮色之间切换（界面会重建一次）。顶栏那个「亮色 / 深色」按钮走的就是这条。
+CmdReflect.cs:37	1	在游戏程序集里按名字找类型。写空串会列出全部（很慢）。
+GameApi.cs:2233	1	基础
+CmdGame.cs:218	1	填几天就跳几天，中途还能停
+CmdGame.cs:263	1	填多少就是多少，填 0 免租
+CmdGame.cs:761	1	声望
+CmdGame.cs:986	1	声望　
+Cmd.cs:200	1	声望、属性、进度开关
+GameApi.cs:1385	1	多选悬停
+CmdGame.cs:388	1	夜间报告
+GameApi.cs:333	1	天数至少是 1。
+GameApi.cs:820	1	威胁
+ConsoleUI.cs:2425	1	存档 · 库存未就绪
+ConsoleUI.cs:2424	1	存档 · 店铺就绪
+Cmd.cs:198	1	存档、跳天、电闸、硬核、夜晚报告
+GameApi.cs:369	1	存档退出了，连跳停下。
+Core.cs:191	1	小键盘
+CmdGame.cs:513	1	属性
+GameApi.cs:2158	1	属性 
+GameApi.cs:1840	1	属性：
+GameApi.cs:1730	1	属性：划过 
+GameApi.cs:1745	1	属性：打标器界面开了，在上面改就行。
+GameApi.cs:2167	1	属性：把 
+GameApi.cs:1652	1	属性：界面关了，这一批到此为止；再划过物品可以接着来。
+GameApi.cs:1739	1	属性：这一批　
+GameApi.cs:2165	1	属性：这几件上没有打标器能改的属性，没得转。
+ConsoleUI.cs:831	1	左边一栏
+GameApi.cs:1374	1	左键悬停
+CmdGame.cs:396	1	已写入夜间报告。
+CmdGame.cs:198	1	已写入存档。
+ConsoleUI.cs:2272	1	已取消收藏 
+CmdGame.cs:897	1	已把事件推上场：
+ConsoleUI.cs:2272	1	已收藏 
+ConsoleUI.cs:2191	1	已清空 
+GameApi.cs:1219	1	已生成 
+GameApi.cs:2707	1	已经打起来了，等这轮演完。
+CmdGame.cs:881	1	已经让游戏重新掷了一次今天的事件。
+GameApi.cs:458	1	已跳过 
+GameApi.cs:1453	1	已选中 
+CmdSys.cs:14	1	帮助
+Cmd.cs:203	1	帮助、清屏、主题、关闭
+GameApi.cs:818	1	常规
+GameApi.cs:2232	1	幽灵
+CmdGame.cs:990	1	库存　
+GameApi.cs:1325	1	库存拒绝了移除请求。
+CmdGame.cs:636	1	库房
+ConsoleUI.cs:1686	1	店里已有
+ConsoleUI.cs:2190	1	店里本来就是空的。
+GameApi.cs:1210	1	店铺库存还没就绪，稍等一下再试。
+CmdGame.cs:318	1	店铺电闸
+GameApi.cs:3019	1	店铺还没就绪。
+GameApi.cs:2926	1	店铺还没就绪，等柜台加载出来再刷。
+GameApi.cs:935	1	废品
+CmdGame.cs:360	1	开启硬核
+CmdGame.cs:247	1	开始快进 
+CmdGame.cs:219	1	开始跳
+CmdGame.cs:1016	1	开枪击杀
+CmdGame.cs:422	1	开物品控制台：一柜的货，点一件就刷
+GameApi.cs:2752	1	开起来了
+CmdGame.cs:1014	1	强制击杀
+Cmd.cs:201	1	强制击杀这类花活
+CmdGame.cs:1007	1	强制击杀：举枪开一枪，把柜台前这位打死（举枪演出 + 游戏自己的中枪 / 倒地结算）。
+CmdGame.cs:844	1	当前挂着什么事件，或者让游戏重掷一次
+CmdGame.cs:873	1	当前挂着：
+CmdSys.cs:100	1	当前模式：
+CmdGame.cs:131	1	当前金钱 
+CmdGame.cs:384	1	往夜间报告里写一条自己的记录（看看报告页排版时很有用）。
+CmdGame.cs:208	1	快进天数：不带参数跳 1 天；写数字跳这么多天（最多 100）；stop 停下正在走的连跳。
+GameApi.cs:2751	1	成
+CmdGame.cs:581	1	或者在物品控制台里点货刷（
+CmdSys.cs:21	1	所有命令和用法
+GameApi.cs:2586	1	手臂对象上没有 Arm 组件。
+CmdGame.cs:1045	1	手臂已经举起来了（
+CmdGame.cs:1026	1	手臂收下去了。
+CmdGame.cs:519	1	才把真品质也拨成标签现在写的那个（装水的瓶子会按那一档整瓶重灌，不用手动倒）。
+GameApi.cs:2752	1	打不开
+CmdGame.cs:752	1	打印到输出区
+CmdSys.cs:23	1	打印命令表
+ConsoleUI.cs:1290	1	打开 ▶
+Core.cs:103	1	打开/关闭调试控制台的热键。+ 连接，最后一个是主键，前面的是要一起按住的修饰键
+ConsoleUI.cs:318	1	打开控制台失败：
+CmdGame.cs:424	1	打开物品控制台
+ConsoleUI.cs:1591	1	打开物品控制台：点一件货 → 填数量 → 选位置 → 生成。
+CmdGame.cs:518	1	打标器只贴标签，物品的真品质是另记一笔的；按 prop real（卡片上的「标签转成真品质」）
+CmdGame.cs:585	1	打标器只贴标签；想让真品质也变成标签写的那个，用 
+CmdGame.cs:568	1	打标器界面开了：改 
+GameApi.cs:1598	1	打标器界面没弹出来
+GameApi.cs:1591	1	打标器管理器还没就绪
+CmdGame.cs:1030	1	打死
+ConsoleUI.cs:2347	1	执行
+CmdGame.cs:583	1	批量改就在店里按住 
+CmdGame.cs:440	1	找不到叫「
+ConsoleUI.cs:703	1	把参数补上再回车：
+CmdGame.cs:190	1	把当前进度立刻写进存档文件
+CmdGame.cs:491	1	把柜台前这位顾客带的货换一批：件数和种类都重掷，跟游戏自己刷新的那套一样。
+CmdGame.cs:321	1	拉闸
+CmdGame.cs:731	1	拥有
+ConsoleUI.cs:836	1	按 
+GameApi.cs:2955	1	按模板重建顾客失败（
+Core.cs:275	1	控制台更新失败：
+ConsoleUI.cs:297	1	控制台面板建不起来，看日志。
+ConsoleUI.cs:1699	1	搜物品名或 ID
+CmdGame.cs:1023	1	收枪
+CmdGame.cs:584	1	改哪一条这一批就跟着改哪一条。
+CmdGame.cs:918	1	改声望
+CmdGame.cs:790	1	改声望失败。
+CmdGame.cs:958	1	改法：
+CmdGame.cs:525	1	改物品属性
+CmdGame.cs:582	1	改物品属性用 
+CmdGame.cs:515	1	改物品属性（就是打标器上那几条标签）：在店里按住 Ctrl+Shift+A 划过或者框选一批物品，
+CmdGame.cs:528	1	改选中这件
+CmdGame.cs:801	1	改造
+CmdGame.cs:809	1	改造系统
+CmdGame.cs:828	1	改造系统已引入标记 → 
+CmdGame.cs:823	1	改造系统已引入：
+CmdGame.cs:117	1	改钱
+ConsoleUI.cs:2082	1	数量
+GameApi.cs:936	1	文书
+GameApi.cs:2972	1	新顾客实例建不出来，旧货已经还原。
+GameApi.cs:2987	1	新顾客的到场流程出错，已经还原：
+CmdGame.cs:382	1	日志
+GameApi.cs:2963	1	旧货摘不下来，已经还原，没动你的店。
+CmdGame.cs:1055	1	更省事的是直接按 Ctrl+Shift+X，面板都不用开。
+CmdGame.cs:416	1	最后一项写「仓库」就放后仓，不写放柜台。
+GameApi.cs:3034	1	有 
+GameApi.cs:945	1	未分类
+Fonts.cs:56	1	未找到
+GameApi.cs:2752	1	本来就开着
+CmdGame.cs:1030	1	杀
+CmdGame.cs:516	1	松手弹出游戏自己的打标器界面 —— 在上面改哪一条，这一批里其余的同一条属性都跟着改。
+CmdReflect.cs:275	1	枚举字段失败。
+CmdReflect.cs:251	1	枚举方法失败。
+GameApi.cs:2755	1	枪响了，但游戏没把这一枪算成命中。看日志里的「强制击杀」那行。
+CmdGame.cs:457	1	柜台
+CmdGame.cs:419	1	柜台 仓库
+GameApi.cs:2708	1	柜台前没人，等顾客进来再动手。
+CmdGame.cs:496	1	柜台前这位带的货换一批
+GameApi.cs:1248	1	柜台库存对象为空。
+CmdGame.cs:529	1	标签转成真品质
+CmdGame.cs:812	1	标记已引入
+CmdGame.cs:813	1	标记未引入
+ConsoleUI.cs:2156	1	桌子（柜台）
+ConsoleUI.cs:815	1	模式）。
+GameApi.cs:2935	1	正在枪战，等打完了再刷。
+Fonts.cs:57	1	正常
+CmdGame.cs:116	1	正数加钱，负数扣钱，填多少改多少
+GameApi.cs:822	1	氛围
+GameApi.cs:2327	1	水：倒空了却没容量（amount=
+GameApi.cs:2304	1	水：属性上没挂着条件
+GameApi.cs:2360	1	水：报错 
+GameApi.cs:2350	1	水：按「
+GameApi.cs:2312	1	水：认不出标签（
+GameApi.cs:2230	1	沟渠
+GameApi.cs:2160	1	没动，这件上的属性类别：
+CmdReflect.cs:224	1	没扫到任何游戏程序集。
+GameApi.cs:1588	1	没找到物品
+CmdGame.cs:731	1	没有
+CmdReflect.cs:306	1	没有匹配的字段。
+CmdReflect.cs:270	1	没有匹配的方法。
+CmdSys.cs:31	1	没有叫「
+ConsoleUI.cs:600	1	没有可补全的项。
+GameApi.cs:2753	1	没立起来
+GameApi.cs:277	1	没进存档
+GameApi.cs:656	1	治安
+GameApi.cs:656	1	治安区
+GameApi.cs:656	1	治安部区
+ConsoleUI.cs:874	1	深色
+CmdSys.cs:60	1	清掉这一屏日志
+CmdGame.cs:467	1	清空和刷物品都搬到「物品控制台」面板里了（顶栏按钮或 ui items）。
+ConsoleUI.cs:2138	1	清空所有物品
+ConsoleUI.cs:2189	1	清空物品：
+CmdSys.cs:55	1	清空输出区。
+GameApi.cs:1232	1	游戏里没有叫「
+ConsoleUI.cs:2221	1	点左边一件货，填好数量、选好位置，再点生成
+Core.cs:167	1	热键「
+Core.cs:173	1	热键只有一个键（
+Core.cs:157	1	热键里认不出「
+GameApi.cs:1206	1	物品 ID 不能为空。
+GameApi.cs:1308	1	物品为空。
+ConsoleUI.cs:882	1	物品控制台
+Core.cs:107	1	物品控制台里收藏的物品 ID，用 | 分隔
+CmdGame.cs:466	1	物品查询。list 翻全部物品，search 按中文名/ID 搜，count / own 查一件货。
+CmdGame.cs:663	1	物品目录 
+CmdGame.cs:655	1	物品目录是空的 —— 目录在进档之后才会注册，先开一局。
+CmdGame.cs:679	1	物品目录还没就绪，先进一次存档。
+Cmd.cs:201	1	特殊功能
+CmdGame.cs:750	1	状态总览
+CmdGame.cs:230	1	现在没在连跳。
+GameApi.cs:2936	1	现在没有顾客在店里。
+ConsoleUI.cs:2131	1	生成
+CmdGame.cs:456	1	生成 
+Cmd.cs:199	1	生成 / 查找 / 清理 / 删物品
+CmdGame.cs:415	1	生成物品放进店里。ID 和中文名都认，中文名匹配到多个会列出来让你挑；
+CmdGame.cs:580	1	生成物品用 
+ConsoleUI.cs:2116	1	生成的位置
+CmdGame.cs:310	1	电
+CmdGame.cs:987	1	电闸　
+CmdGame.cs:342	1	电闸已合上。
+CmdGame.cs:342	1	电闸已断开。
+CmdGame.cs:340	1	电闸本来就是断电的。
+CmdGame.cs:340	1	电闸本来就是通电的。
+CmdGame.cs:331	1	电闸：
+ConsoleUI.cs:287	1	界面已切到 
+ConsoleUI.cs:349	1	界面已切到亮色风格。
+ConsoleUI.cs:349	1	界面已切到深色风格。
+ConsoleUI.cs:363	1	界面已切回中文。
+CmdSys.cs:91	1	界面模式
+Core.cs:106	1	界面模式：simple / hybrid / developer
+Core.cs:105	1	界面用亮色风格（false = 深色）
+Core.cs:108	1	界面语言：zh / en
+Cmd.cs:202	1	直接读写游戏里的字段和方法
+CmdGame.cs:803	1	看 / 改「改造系统是否已引入」的标记。用来跳过前置剧情直接看后面的内容。
+CmdGame.cs:312	1	看 / 改店铺电闸。停电的状态下开门做生意会很难受，调试时常用。
+CmdGame.cs:351	1	看 / 改硬核模式开关。改动只在运行时生效，存档里记的是你开局选的模式。
+CmdGame.cs:847	1	看事件列表
+CmdSys.cs:162	1	看说明
+CmdGame.cs:537	1	真
+CmdGame.cs:349	1	硬核
+CmdGame.cs:357	1	硬核模式
+CmdGame.cs:375	1	硬核模式已关闭。
+CmdGame.cs:375	1	硬核模式已打开。
+CmdGame.cs:370	1	硬核模式：
+GameApi.cs:922	1	种植水培
+CmdGame.cs:255	1	租金
+CmdGame.cs:280	1	租金 
+CmdGame.cs:976	1	租金　
+CmdGame.cs:292	1	租金已改成 
+CmdGame.cs:263	1	租金设置
+CmdGame.cs:95	1	空闲
+CmdGame.cs:185	1	立刻把当前进度写进存档文件。
+CmdGame.cs:192	1	立即存档
+GameApi.cs:2753	1	立起来了
+CmdGame.cs:214	1	等一整天过去太慢的时候用
+ConsoleUI.cs:1684	1	筛选
+ConsoleUI.cs:837	1	简单 / 混合 / 开发者
+CmdSys.cs:91	1	简单只看卡片，混合两者都有
+CmdReflect.cs:368	1	类型 
+Cmd.cs:203	1	系统
+GameApi.cs:2235	1	纯
+CmdSys.cs:168	1	给店长自己用的后台：刷钱、刷货、改数值、直接读写游戏字段。
+GameApi.cs:869	1	编号要落在 1 到 
+CmdGame.cs:265	1	缴租倒计时
+CmdGame.cs:300	1	缴租倒计时已改成 
+GameApi.cs:943	1	背包
+GameApi.cs:2402	1	药：报错 
+GameApi.cs:2384	1	药：条件抄不出来
+GameApi.cs:2372	1	药：没找到能改的纯度
+GameApi.cs:2393	1	药：真纯度 
+Core.cs:233	1	补丁 
+CmdReflect.cs:217	1	要先给一个类型名，用 
+CmdGame.cs:389	1	要写的话…
+CmdGame.cs:896	1	触发失败：
+CmdGame.cs:930	1	触发指定事件
+CmdGame.cs:874	1	触发：
+CmdGame.cs:779	1	认不出「
+CmdReflect.cs:390	1	读 
+CmdReflect.cs:76	1	读一个字段/属性的值。例：get PlayerStore.instance.playerCash
+GameApi.cs:868	1	读不到事件列表 —— 事件管理器是进档之后才起来的。
+CmdGame.cs:861	1	读不到事件列表 —— 事件系统是进档之后才起来的。
+GameApi.cs:344	1	读不到当前是第几天，改成「推一把就算跳过」的方式，准头差一点。
+CmdGame.cs:125	1	读不到当前金钱。
+CmdGame.cs:328	1	读不到电闸状态。
+CmdGame.cs:367	1	读不到硬核开关。
+CmdGame.cs:274	1	读不到租金信息。
+CmdGame.cs:820	1	读不到这个标记。
+CmdReflect.cs:110	1	调一个方法。例：call PlayerStore.instance.RefreshCounterItem
+CmdReflect.cs:584	1	调用失败：
+Core.cs:132	1	调试控制台 v
+GameApi.cs:2751	1	败(
+CmdReflect.cs:400	1	路径在「
+CmdReflect.cs:525	1	路径要写成「类型.方法」，例如 PlayerStore.instance.RefreshCounterItem
+GameApi.cs:400	1	跳不动了（
+CmdGame.cs:206	1	跳天
+CmdGame.cs:216	1	跳过 1 天
+CmdGame.cs:214	1	跳过一天
+CmdGame.cs:809	1	跳过前置剧情直接看后面的内容
+CmdGame.cs:218	1	跳过天数
+ConsoleUI.cs:2343	1	输入命令，回车执行…　（Tab 补全 / ↑↓ 历史）
+ConsoleUI.cs:1167	1	输出
+CmdSys.cs:60	1	输出区
+Core.cs:104	1	输出调试日志
+CmdSys.cs:130	1	返回
+CmdGame.cs:265	1	还欠几天到期，填多少就是多少
+CmdGame.cs:39	1	还没进存档。先开一局或读一个档，这条命令才有东西可改。
+GameApi.cs:1210	1	还没进存档，先生成一个档再刷。
+GameApi.cs:2575	1	还没进存档，没有可举的手臂。
+GameApi.cs:335	1	还没进存档，没法跳。
+GameApi.cs:1482	1	还没选中物品 —— 先在店里右键点一下要删的东西。
+ConsoleUI.cs:2210	1	还没选物品
+GameApi.cs:2058	1	这一批 
+ConsoleUI.cs:1512	1	这个下拉框现在还没得选。
+GameApi.cs:879	1	这个事件造不出实例。
+ConsoleUI.cs:1342	1	这个分类只有命令，没有卡片 —— 去左边点一条，或者敲命令行。
+CmdSys.cs:160	1	这个控制台是什么、怎么用
+CmdSys.cs:156	1	这个控制台是什么、怎么用。
+GameApi.cs:2717	1	这位在游戏里标了「开枪打不得」，换个人吧。
+GameApi.cs:2945	1	这位顾客没有 ID，没法按模板重掷。
+GameApi.cs:2941	1	这位顾客的生意已经做完了，刷不了。
+CmdGame.cs:95	1	连跳中，还剩 
+CmdGame.cs:230	1	连跳停下了。
+GameApi.cs:445	1	连跳出错：
+CmdGame.cs:600	1	选中：
+CmdGame.cs:600	1	选中：还没选
+GameApi.cs:921	1	酿酒
+CmdGame.cs:848	1	重掷今天的事件
+GameApi.cs:2995	1	重掷出来的货是空的，已经还原成原来那批。
+CmdGame.cs:882	1	重掷失败，看日志。
+CmdGame.cs:975	1	金钱　
+CmdGame.cs:108	1	钱
+Cmd.cs:197	1	钱和租金，改多改少都在这儿
+GameApi.cs:2231	1	锈
+CmdSys.cs:114	1	面板
+GameApi.cs:660	1	革命
+ConsoleUI.cs:837	1	顶栏可以切 
+CmdGame.cs:506	1	顾客的货换了一批：
+GameApi.cs:920	1	食物
+Fonts.cs:58	1	（候选 
+CmdGame.cs:281	1	（初始 
+CmdSys.cs:171	1	（卡片 + 命令行）/ 
+CmdGame.cs:586	1	（卡片上「标签转成真品质」那一下）。
+CmdSys.cs:170	1	（只有操作卡片）/ 
+ConsoleUI.cs:2189	1	（已销毁 
+CmdGame.cs:582	1	（或「改物品属性」卡）：把游戏自己的打标器界面打开。
+GameApi.cs:2394	1	（标签「
+GameApi.cs:2434	1	（没有属性）
+GameApi.cs:1717	1	（第 
+CmdSys.cs:171	1	（纯命令行）
+ConsoleUI.cs:1500	1	（还没得选）
+CmdGame.cs:929	1	（还没读到事件，先进档）
+GameApi.cs:400	1	）。现在停在第 
+Core.cs:173	1	），容易和别的模组撞车，建议写成 
+GameApi.cs:420	1	），换下一种。
+GameApi.cs:2312	1	），没敢灌
+GameApi.cs:2955	1	），这个顾客可能没有可重掷的数据。
+Fonts.cs:57	1	，中文 
+GameApi.cs:441	1	，今天是第 
+GameApi.cs:2313	1	，先不灌。
+CmdGame.cs:300	1	，别忘了 
+CmdReflect.cs:228	1	，加个关键词再搜（列表太长没意义）。
+CmdGame.cs:569	1	，在上面改就行。
+GameApi.cs:2514	1	，实际说明 
+GameApi.cs:1454	1	，按 Ctrl+Shift+X 删掉。
+GameApi.cs:459	1	，现在是第 
+GameApi.cs:2513	1	，真数值 
+GameApi.cs:2751	1	：举枪 
